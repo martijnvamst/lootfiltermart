@@ -254,8 +254,7 @@ ItemDisplay[hp5]: %RED%!%WHITE%Hp
 ItemDisplay[mp5]: %BLUE%!%WHITE%Mp
 
 //Utilites
-ItemDisplay[tsc]: %BLUE%°%GRAY%tp
-ItemDisplay[isc CLVL<80]: %RED%°%GRAY%id
+ItemDisplay[tsc]:
 // Hide id scrolls after lvl 80
 ItemDisplay[isc]:
 // Hide stamina potions after lvl 40
@@ -285,7 +284,7 @@ ItemDisplay[cx7]: %RED%»»»» %NAME%%RED% ««««
 ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR maz]: %NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
 
 //Wirt Leg
-ItemDisplay[leg]: %WIRTS DILDO%
+ItemDisplay[leg]: %RED% [Wirt's Dildo]
 
 //Gems
 ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) CLVL>40]:
